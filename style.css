@@ -1,3 +1,46 @@
+.container{
+    margin-bottom: 30px;
+}
 .pink-bg{
     background-color: rgb(255, 232, 236);
+    border-radius: 20px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.button{
+    background-image: linear-gradient(30deg,tomato,rgb(163, 255, 228));
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: aliceblue;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.slide{
+    margin-bottom: 50px;
+}
+.op-1, .op-2, .op-3{
+    padding: 10px 30px;
+    border-radius: 20px;
+    
+}
+.op-1{
+    background-image: linear-gradient(45deg,orange,red);
+}
+.op-2{
+    background-image: linear-gradient(45deg,lime,rgb(131, 253, 223));
+}
+.op-3{
+    background-image: linear-gradient(45deg,rgb(117, 172, 255),rgb(255, 0, 85));
+}
+.option img{
+    width: 100px;   
+}
+.option h1{
+    color: aliceblue;
+}
+.card{
+    border: none;
+    box-shadow: 6px 6px 10px lightgray;
 }
